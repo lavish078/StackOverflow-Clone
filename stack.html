@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stack Overflow clone</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./stack.css">
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="height: 42px; padding-left: 4%; padding-top: 2%; padding-right: 4%;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="logo.ico" alt="" srcset="">stack<b>overflow</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" style="width: 150px;" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Products</a>
+              </li>
+            </ul>
+          </div>
+          <div class="middle-section" >
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" style="width:800px" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        <div class="right-section ">
+          <img src="unnamed.jpg" style= border-radius:100px; height="28px">
+          <img class="pic1"   src="Screenshot 2024-02-11 044539.png">
+          <img class="pic2"  src="Screenshot 2024-02-11 044830.png">
+          <img class="pic3"  src="Screenshot 2024-02-11 045929.png">
+          <img class="pic4"   src="Screenshot 2024-02-11 045033.png">
+        </div>
+        </div>
+      </nav>
+      <hr>
+    <main class="flex relative justify-around" style="width: 100%; gap: 2%;">
+      <section style="width: 20%; padding-left: 3%;"> 
+        <div>
+          <div class="row">
+            <div class="col-10">
+                <div id="list-example" class="list-group">
+                  <a class="list-group-item list-group-item-action" href="#list-item-1">  <img src="home logo.png" alt="" >Home </a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-2"> <img src="question logo.png" alt="" >Questions</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-3">  <img src="tag logo.png" alt="" >Tags</a> <br>
+                  <a class="list-group-item list-group-item-action" href="#list-item-4"> <img src="saves logo.png" alt="" >Saves</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-4"> <img src="users logo.png" alt="" >Users</a>
+                  <a class="list-group-item list-group-item-action" href="#list-item-4"> <img src="company logo.png" alt="" >Companies</a>
+                  <br>
+                  <hr>
+                  <h5>Labs <img src="labs logo.png" alt=""  style="padding-left: 120px;"> </h5>
+                  <a class="list-group-item list-group-item-action" href="#list-item-4"><img src="discussions logo.png" alt="" > Discussions <img src="news logo.png" alt=""  style="padding-left: 10px;"> </a>
+                  <br><hr>
+                  <h5>Collectives <img src="collectives logo.png" alt=""  style="padding-left: 67px;"></h5>
+                  <a class="list-group-item list-group-item-action" style=" height: 65px; display:flex;" href="#list-item-4"><img src="explore collectives logo.png" alt=""  style="height:20px; width: 25px; align-items: start ;" >Explore Collectives   </a>
+                </div>
+              </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+    <section style="width: 60%;">
+      <div class="flex justify-between" style="margin: 20px 0; height: 40px; padding-top:5px;">
+        <h2> Top Questions</h2><button class="btn btn-primary" type="ask">Ask question</button>
+      </div>
+      <div class="card flex">
+        <img src="./stackimg.svg" alt=""> 
+        <div class="card-body" style="">
+          <img src="search bar.png" alt="" srcset=" "  style="width: 50px; height: 50px;" >
+          <h5 class="card-title"><b>New search experience powered by AI</b></h5>
+          <p class="card-text">Stack Overflow is leveraging AI to summarize the most relevant questions and answers from the community, with the option to ask follow-up questions in a conversational format.</p>
+          <a href="#" class="">Get early access</a>
+        </div>
+      </div>
+      <div class="" style="padding-left:480px; padding-top:20px  ;">
+          <div class="p-2 btn btn-outline-secondary">Interesting</div>
+          <div class="p-2 btn btn-outline-secondary">Bountied</div>
+          <div class="p-2 btn btn-outline-secondary">Hot</div>
+          <div class="p-2 btn btn-outline-secondary">Week</div>
+          <div class="p-2 btn btn-outline-secondary">Month</div>
+      </div>
+        <section class="flex-col items-center" style="margin: 50px 0;">
+          <div class="card" style="width: 100%;">
+            <div class="card-body">
+              <p class="card-text">Hibernate @SoftDelete problem with @ManyToOne(fetch = FetchType.LAZY)</p>
+            </div>
+          </div> 
+          <div class="card" style="width: 100%;">
+            <div class="card-body">
+              <p class="card-text">FTP Issue in Java using FTPClient</p>
+            </div>
+          </div>   
+          <div class="card" style="width: 100%;">
+            <div class="card-body">
+              <p class="card-text">Cypress runs old code instead of running updated code changes</p>
+            </div>
+          </div>
+          <div class="card" style="width: 100%;">
+            <div class="card-body">
+              <p class="card-text">How to have multiple db connection simultaneously and Add new DB during runtime in spring boot</p>
+            </div>
+          </div>
+    
+          <div class="card" style="width: 100%;">
+            <div class="card-body">
+              <p class="card-text">How to create event view in react-big-calender</p>
+            </div>
+          </div>
+        </section>
+      </section>
+      <section style="width: 20%; padding-right: 4%;">
+        <div class="card" style="background-color: rgb(250, 236, 198);">
+          <div class="card-body ">
+            <h5 class="card-title"><b>The Overflow Blog</b></h5><hr>
+            <p class="card-text">Discussions now taking place across all tags on Stack Overflow.<br><br>
+              Building a PDF larger than the known universe.
+            </p>  
+          </div>
+        </div>
+        <div class="card " style="margin: 0px 0; background-color: rgb(250, 236, 198);">
+          <div class="card-body">
+            <h5 class="card-title"><b>Featured on Meta</b></h5><hr>
+            <p class="card-text">
+              What would you like to change about the moderator election process?<br>
+              Data Dumps Releases: Timeline Updates and Clarification. <br>
+              Discussions update: Expansion to all tags.<br>
+            </p>
+          </div>
+        </div>
+        <div class="card " style="background-color: rgb(250, 236, 198) ;">
+          <div class="card-body">
+            <h5 class="card-title"><b>Hot Meta Posts</b></h5><hr>
+            <p class="card-text">
+              Are undelete votes effective?br>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer style="padding-left: 5%; padding: top 4%;">
+      <div><img src="logo.ico" style="height: 40px;"></div>
+      <div class="stack" style="font-size: smaller; margin-top:-16px;">
+          <p><h5> STACK OVERFLOW</h5>
+            Questions<br>
+             Help</p>
+      </div>
+      <div class="Products" style="font-size: smaller;">
+          <ul>
+              <h5>PRODUCTS</h5>
+              <li>Teams</li>
+              <li>Advertising</li>
+              <li>Collectives</li>
+              
+              <li>Talent</li>
+          </ul>
+      </div>
+      <div class="COMPANY" style="font-size: smaller;">
+          <ul>
+              <h5>COMPANY</h5>
+              <li>About</li>
+              <li>Press</li>
+              <li>Work Here</li>
+              <li>Legal</li>
+              <li>privacy policy</li>
+              <li>Terms of Service</li>
+              <li>Contact us</li>
+              <li>Cookie settings</li>
+              <li>Cookie policy</li>
+          </ul>
+      </div>
+      <div class="stack" style="font-size: smaller;">
+          <ul>
+              <h5>STACK EXCHANGE NETWORK</h5>
+              <li>Technology</li>
+              <li>Culture & recreation</li>
+              <li>Life & arts</li>
+              <li>Science</li>
+              <li>Professional</li>
+              <li>Business</li>
+              <br><br>
+              <li>API</li>
+              <li>Data</li>
+          </ul>
+      </div>
+      <div style="font-size: smaller; display: flex; flex-direction: column; align-items: center; justify-content: space-between; height: 40vh; width: 30vw;" >
+        <div style="display: flex; align-items:start; gap: 10px; font-weight: 100; margin-right: 50%;">
+          <h6>Blog</h6>
+          <h6>Facebook</h6>
+          <h6>Twitter</h6> 
+          <h6>LinkedIn</h6>
+          <h6>Instagram</h6>
+        </div>
+        <div style="font-size: x-small;">
+          <li>Site design / logo © 2024 Stack Exchange Inc; user contributions licensed under<u>CC BY-SA.</u> rev 2024.2.8.4531</li>
+        </div>
+      </div>
+  </footer>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </html>
